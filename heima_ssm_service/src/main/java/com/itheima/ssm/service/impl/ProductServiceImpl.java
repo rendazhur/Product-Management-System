@@ -5,6 +5,7 @@ import com.itheima.ssm.domain.Product;
 import com.itheima.ssm.service.IProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.test.context.TestExecutionListeners;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
