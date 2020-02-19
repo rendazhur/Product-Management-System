@@ -13,6 +13,9 @@ import java.util.List;
  * @date 2020/1/14
  */
 public interface IProductDao {
+    //根据id查询产品
+    @Select("select * from product where id = #{id}")
+    public Product findById(String id);
 
     @Select("select * from product")
     public List<Product> findAll() throws Exception;
