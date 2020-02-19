@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a572005a-b632-4265-9e28-a798496d86b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IOrdersDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima_ssm_domain/src/main/java/com/itheima/ssm/domain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima_ssm_domain/src/main/java/com/itheima/ssm/domain/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima_ssm_domain/src/main/java/com/itheima/ssm/domain/Traveller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/IOrdersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/impl/OrdersServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/OrdersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/orders-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/orders-page-list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/IOrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/IOrdersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/impl/OrdersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/impl/OrdersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/OrdersController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/aside.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product.sql" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,14 +63,14 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\42321\IdeaProjects\enterprise-system" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\42321\IdeaProjects\enterprise-system\heima_ssm_web\src\main\webapp\pages" />
       <recent name="C:\Users\42321\IdeaProjects\enterprise-system\heima_ssm_web\src\main\resources" />
       <recent name="C:\Users\42321\IdeaProjects\enterprise-system\heima_ssm_web\src\main\webapp\img" />
       <recent name="C:\Users\42321\IdeaProjects\enterprise-system\heima_ssm_web\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\42321\IdeaProjects\enterprise-system" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -140,7 +133,8 @@
       <workItem from="1581607552892" duration="3300000" />
       <workItem from="1582033179479" duration="6328000" />
       <workItem from="1582044521737" duration="541000" />
-      <workItem from="1582086453660" duration="4083000" />
+      <workItem from="1582086453660" duration="6575000" />
+      <workItem from="1582114014467" duration="5922000" />
     </task>
     <task id="LOCAL-00001" summary="readme改写">
       <created>1578982945782</created>
@@ -191,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582033730975</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="查询所有订单代码完成">
+      <created>1582100483235</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582100483235</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +218,8 @@
     <MESSAGE value="产品添加完成" />
     <MESSAGE value="修改README" />
     <MESSAGE value="修改语言类型" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改语言类型" />
+    <MESSAGE value="查询所有订单代码完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="查询所有订单代码完成" />
   </component>
   <component name="masterDetails">
     <states>
