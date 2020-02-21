@@ -24,6 +24,11 @@ public class OrdersServiceImpl implements IOrdersService {
         return ordersDao.findALl();
     }
 
+    @Override
+    public Orders findById(String ordersId) throws Exception{
+        return ordersDao.findById(ordersId);
+    }
+
 
 
 
