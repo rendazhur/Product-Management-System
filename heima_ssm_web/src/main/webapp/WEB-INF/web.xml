@@ -7,20 +7,13 @@
   <!-- 配置加载类路径的配置文件 -->
   <context-param>
     <param-name>contextConfigLocation</param-name>
-    <param-value>classpath*:applicationContext.xml</param-value>
+    <param-value>classpath*:applicationContext.xml,classpath*:spring-security.xml</param-value>
   </context-param>
 
   <!-- 配置监听器 -->
   <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
-  <!-- 配置监听器，监听request域对象的创建和销毁的 -->
-  <listener>
-    <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
-  </listener>
-
-
-
 
   <!-- 前端控制器（加载classpath:springmvc.xml 服务器启动创建servlet） -->
   <servlet>
@@ -52,9 +45,7 @@
     <filter-name>characterEncodingFilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
-
-  <!-- 委派过滤器 -->
-  <!-- <filter>
+  <filter>
     <filter-name>springSecurityFilterChain</filter-name>
     <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
   </filter>
@@ -62,7 +53,6 @@
     <filter-name>springSecurityFilterChain</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
--->
 
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>

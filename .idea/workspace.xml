@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a572005a-b632-4265-9e28-a798496d86b3" name="Default Changelist" comment="分页查询完成">
-      <change afterPath="$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IMemberDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/ITravellerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/orders-show.jsp" afterDir="false" />
+    <list default="true" id="a572005a-b632-4265-9e28-a798496d86b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima_ssm_domain/src/main/java/com/itheima/ssm/domain/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima_ssm_domain/src/main/java/com/itheima/ssm/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima_ssm_domain/src/main/java/com/itheima/ssm/domain/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/resources/spring-security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/failer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IOrdersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IOrdersDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_domain/src/main/java/com/itheima/ssm/domain/Traveller.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_domain/src/main/java/com/itheima/ssm/domain/Traveller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/IOrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/IOrdersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/impl/OrdersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/impl/OrdersServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/OrdersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +60,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/heima_ssm_web/src/main/webapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -66,14 +69,14 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\42321\IdeaProjects\enterprise-system\heima_ssm_web\src\main\webapp" />
+      <recent name="C:\Users\42321\IdeaProjects\enterprise-system\heima_ssm_web\src\main\resources" />
+      <recent name="C:\Users\42321\IdeaProjects\enterprise-system\heima_ssm_web\src\main\webapp\pages" />
+      <recent name="C:\Users\42321\IdeaProjects\enterprise-system\heima_ssm_web\src\main\webapp\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\42321\IdeaProjects\enterprise-system" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\42321\IdeaProjects\enterprise-system\heima_ssm_web\src\main\webapp\pages" />
-      <recent name="C:\Users\42321\IdeaProjects\enterprise-system\heima_ssm_web\src\main\resources" />
-      <recent name="C:\Users\42321\IdeaProjects\enterprise-system\heima_ssm_web\src\main\webapp\img" />
-      <recent name="C:\Users\42321\IdeaProjects\enterprise-system\heima_ssm_web\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -138,7 +141,11 @@
       <workItem from="1582044521737" duration="541000" />
       <workItem from="1582086453660" duration="6575000" />
       <workItem from="1582114014467" duration="7422000" />
-      <workItem from="1582291707912" duration="6611000" />
+      <workItem from="1582291707912" duration="6693000" />
+      <workItem from="1582355563565" duration="15000" />
+      <workItem from="1582448460135" duration="1402000" />
+      <workItem from="1582453428777" duration="7000" />
+      <workItem from="1582457625214" duration="13044000" />
     </task>
     <task id="LOCAL-00001" summary="readme改写">
       <created>1578982945782</created>
@@ -203,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582123696469</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="分页查询完成">
+      <created>1582303282770</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582303282770</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
