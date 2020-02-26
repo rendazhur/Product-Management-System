@@ -30,6 +30,22 @@ public class UserServiceImpl implements IUserService {
     private BCryptPasswordEncoder bCryptPasswordEncoder;
 
     @Override
+    public List<Role> findOtherRoles(String userId) throws Exception {
+        return userDao.findOtherRoles(userId);
+    }
+
+    @Override
+    public void addRoleToUser(String userId,String[] roleIds) throws Exception{
+        for(String roleId:roleIds){
+            userDao.addRoleToUser(userId,roleId);
+        }
+    }
+
+
+
+
+
+    @Override
     public List<UserInfo> findAll() throws Exception {
         return userDao.findAll();
     }
