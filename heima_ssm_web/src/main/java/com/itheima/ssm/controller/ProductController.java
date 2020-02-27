@@ -32,7 +32,7 @@ public class ProductController {
     //查询全部产品
     @RequestMapping("/findAll.do")
     @RolesAllowed("ADMIN")
-    public ModelAndView findAll(@RequestParam(name="page",required = true,defaultValue = "1") int page, @RequestParam(name="size",required = true,defaultValue = "2") int size) throws Exception {
+    public ModelAndView findAll(@RequestParam(name="page",required = true,defaultValue = "1") Integer page, @RequestParam(name="size",required = true,defaultValue = "2") Integer size) throws Exception {
         ModelAndView mv = new ModelAndView();
         List<Product> productList = productService.findAll(page, size);
         PageInfo pageInfo = new PageInfo(productList);
