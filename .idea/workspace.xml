@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a572005a-b632-4265-9e28-a798496d86b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ssm.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="a572005a-b632-4265-9e28-a798496d86b3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +142,7 @@
       <workItem from="1582732210368" duration="161000" />
       <workItem from="1582732525823" duration="97000" />
       <workItem from="1582781035647" duration="10811000" />
-      <workItem from="1582864708678" duration="1940000" />
+      <workItem from="1582864708678" duration="2083000" />
     </task>
     <task id="LOCAL-00001" summary="readme改写">
       <created>1578982945782</created>
@@ -274,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582798394630</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="sql,readme完成">
+      <created>1582866715453</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1582866715453</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +313,8 @@
     <MESSAGE value="JSR-250权限控制" />
     <MESSAGE value="页面端权限控制" />
     <MESSAGE value="AOP权限记录完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="AOP权限记录完成" />
+    <MESSAGE value="sql,readme完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql,readme完成" />
   </component>
   <component name="masterDetails">
     <states>

@@ -11,7 +11,7 @@ IDEA运行，导入项目后Edit Configurations，+号键添加Maven
 
 Working directory选择heima.ssm.web
 
-Command line填写tomcat7:run，即可运行
+Command line填写tomcat7:run，即可开始运行
 
 2.安装步骤：
 
